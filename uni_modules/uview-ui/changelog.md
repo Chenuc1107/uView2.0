@@ -1,3 +1,28 @@
+## 2.0.29（2022-03-13）
+# uView2.0重磅发布，利剑出鞘，一统江湖
+
+1. 修复`u--text`组件设置`decoration`属性未生效的问题
+2. 修复`u-datetime-picker`使用`formatter`后返回值不正确
+3. 修复`u-datetime-picker` `intercept` 可能为undefined
+4. 修复已设置单位 uni..config.unit = 'rpx'时，线型指示器 `transform` 的位置翻倍，导致指示器超出宽度
+5. 修复mixin中bem方法生成的类名在支付宝和字节小程序中失效
+6. 修复默认值传值为空的时候，打开`u-datetime-picker`报错，不能选中第一列时间的bug
+7. 修复`u-datetime-picker`使用`formatter`后返回值不正确
+8. 修复`u-image`组件`loading`无效果的问题
+9. 修复`config.unit`属性设为`rpx`时，导航栏占用高度不足导致塌陷的问题
+10. 修复`u-datetime-picker`组件`itemHeight`无效问题
+11. 其他修复
+## 2.0.28（2022-02-22）
+# uView2.0重磅发布，利剑出鞘，一统江湖
+
+1. search组件新增searchIconSize属性
+2. 兼容Safari/Webkit中传入时间格式如2022-02-17 12:00:56
+3. 修复text value.js 判断日期出format错误问题
+4. priceFormat格式化金额出现精度错误
+5. priceFormat在部分情况下出现精度损失问题
+6. 优化表单rules提示
+7. 修复avatar组件src为空时，展示状态不对
+8. 其他修复
 ## 2.0.27（2022-01-28）
 # uView2.0重磅发布，利剑出鞘，一统江湖
 
